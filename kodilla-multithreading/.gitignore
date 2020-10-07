@@ -33,5 +33,6 @@ out/
 ### VS Code ###
 .vscode/
 
-### Other ###
-Autocommmit.bat
+### Code ###
+**/com/kodilla/multi/simple/**
+**/com/kodilla/multi/sum/**
