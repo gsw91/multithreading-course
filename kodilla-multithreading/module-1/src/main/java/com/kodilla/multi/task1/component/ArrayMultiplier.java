@@ -5,7 +5,7 @@ public final class ArrayMultiplier implements Runnable {
     private final ArrayData arrayData;
     private final int multiplier;
 
-    public ArrayMultiplier(ArrayData arrayData, int multiplier) {
+    public ArrayMultiplier(final ArrayData arrayData, final int multiplier) {
         this.arrayData = arrayData;
         this.multiplier = multiplier;
     }
