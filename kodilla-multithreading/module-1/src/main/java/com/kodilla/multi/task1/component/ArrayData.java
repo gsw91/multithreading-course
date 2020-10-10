@@ -1,5 +1,7 @@
 package com.kodilla.multi.task1.component;
 
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Random;
 
 public final class ArrayData {

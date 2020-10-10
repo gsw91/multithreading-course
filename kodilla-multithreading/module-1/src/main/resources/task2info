@@ -1,0 +1,3 @@
+Napisz program, który wykorzystując tyle wątków, ile ma Twój procesor rdzeni, pomnoży przez siebie dwie tablice liczb typu int na zasadzie pierwszy element z pierwszym, drugi z drugim itd. Wyniki powinny trafić do trzeciej tablicy wynikowej. Jej elementy powinny być typu long.
+
+Użyj do tego celu ExecutorService.

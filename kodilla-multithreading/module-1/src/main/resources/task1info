@@ -1,0 +1,2 @@
+Zadanie: mnożenie elementów tablicy przez liczbę
+Napisz program, który w sposób wielowątkowy dokona mnożenia elementów tablicy 10-elementowej przez ustaloną liczbę. Wykorzystaj własną klasę implementującą interfejs Runnable.
