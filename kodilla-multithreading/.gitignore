@@ -32,8 +32,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-### Code ###
-**/com/kodilla/multi/simple/**
-**/com/kodilla/multi/sum/**
-**/com/kodilla/multi/executor/**

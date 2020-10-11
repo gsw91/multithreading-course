@@ -1,0 +1,3 @@
+Napisz program symulujący równoczesne pobieranie wielu plików z sieci internet.
+Ogranicz przy pomocy semafora do 10 liczbę plików możliwych równocześnie do pobrania.
+Program powinien "pobierać" kilkaset plików (symulacja).
