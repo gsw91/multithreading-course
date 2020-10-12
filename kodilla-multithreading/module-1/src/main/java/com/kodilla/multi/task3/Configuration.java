@@ -1,4 +1,4 @@
-package com.kodilla.multi.task03;
+package com.kodilla.multi.task3;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

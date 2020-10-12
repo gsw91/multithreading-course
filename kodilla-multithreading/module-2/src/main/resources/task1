@@ -1,0 +1,4 @@
+Napisz program, który będzie uruchamiał dwa równoległe wątki, które zwrócą wyniki tekstowe.
+Opóźnij je odpowiednio, używając napisanego wcześniej utila.
+Następnie, w oczekiwaniu na rezultaty, wyświetlaj co sekundę informacje o tym, czy któryś jest już gotowy.
+Po otrzymaniu obu wyników wyświetl je na konsol
