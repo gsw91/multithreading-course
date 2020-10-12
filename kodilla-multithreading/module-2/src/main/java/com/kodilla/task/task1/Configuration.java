@@ -8,11 +8,9 @@ import java.util.concurrent.Future;
 public class Configuration {
 
     public void run() throws ExecutionException, InterruptedException {
-        final FileGenerator fileGeneratorOne = new FileGenerator();
-        final Future<String> resultA = fileGeneratorOne.generate(10);
-
-        final FileGenerator fileGeneratorTwo = new FileGenerator();
-        final Future<String> resultB = fileGeneratorTwo.generate(17);
+        final FileGenerator fileGenerator = new FileGenerator();
+        final Future<String> resultA = fileGenerator.generate(10);
+        final Future<String> resultB = fileGenerator.generate(17);
 
         boolean checkA = true;
         boolean checkB = true;
@@ -32,7 +30,7 @@ public class Configuration {
                 break;
             }
         }
-
+        fileGenerator.closeExecutor();
     }
 
     private boolean checkStatus(Class<?> clazz, Future<String> futureResult, boolean checkIt, int fileId) {

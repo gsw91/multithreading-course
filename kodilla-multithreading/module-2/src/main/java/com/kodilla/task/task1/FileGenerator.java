@@ -7,18 +7,22 @@ import java.util.concurrent.Future;
 
 import static com.kodilla.util.SleepUtil.sleep;
 
-public class FileGenerator {
+public final class FileGenerator {
 
-    public Future<String> generate(int fileId) {
+    private final ExecutorService executor = Executors.newCachedThreadPool();
+
+    public void closeExecutor() {
+        executor.shutdown();
+    }
+
+    public synchronized Future<String> generate(int fileId) {
         String fileName = fileId + ".txt";
-        ExecutorService executor = Executors.newSingleThreadExecutor();
         Random random = new Random();
         return executor.submit(() -> {
             System.out.println("Start generating file " + fileName);
             int delayTime = random.nextInt(20);
             sleep(delayTime);
             System.out.println("Task completed: generating file " + fileName);
-            executor.shutdown();
             return "File " + fileName + " generated in " + delayTime + " s";
         });
     }
