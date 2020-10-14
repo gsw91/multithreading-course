@@ -32,3 +32,5 @@ out/
 
 ### VS Code ###
 .vscode/
+/module-2/src/main/java/com/kodilla/completable/*
+!/module-2/src/main/java/com/kodilla/completable/homework
