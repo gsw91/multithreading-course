@@ -9,10 +9,11 @@ public class Application {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         CompletableFuture<Book> futureBook = CompletableFuture.supplyAsync(() -> {
-            System.out.println("Loading book...");
-            sleep(4);
-            return new Book("Java Multithreading Coure", "Kodilla Kodilla", "2020");
-        })
+                    System.out.println("Loading book...");
+                    sleep(4);
+                    return new Book("Java Multithreading Coure", "Kodilla Kodilla", "2020");
+                    //return new Book("Java Multithreading Coure", "Kodilla Kodilla", "");
+                })
                 .thenApply(t -> {
                     if (t.getAuthor() == null || t.getAuthor().isBlank()
                             || t.getTitle() == null || t.getTitle().isBlank()
@@ -44,7 +45,12 @@ public class Application {
         });
 
         futureBook
-                .thenAccept(t -> System.out.println("Your book: " + t))
+                .thenAccept(t -> {
+                    if (t.isEmpty())
+                        System.out.println("Book not found!");
+                    else
+                        System.out.println("Your book: " + t);
+                })
                 .get();
 
         cfVoid.get();
