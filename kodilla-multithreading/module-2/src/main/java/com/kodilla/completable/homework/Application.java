@@ -55,6 +55,8 @@ public class Application {
 
         cfVoid.get();
 
+        sleep(4);
+        System.out.println("Application stop");
     }
 
 }
