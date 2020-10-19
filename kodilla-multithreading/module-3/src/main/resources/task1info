@@ -1,0 +1,5 @@
+Zadanie: obliczanie liczby ludzi na świecie
+Utwórz program, który używając ForkJoinPool obliczy liczbę ludzi na świecie.
+Danymi wejściowymi do programu będą obiekty klasy Country reprezentujące poszczególne kraje.
+Każdy z tych obiektów będzie posiadał informację o liczbie ludności zamieszkującej dany kraj (na przykład w polu klasy Country, o nazwie peopleQuantity).
+Stwórz kilka, bądź kilkanaście obiektów reprezentujących kraje, a następnie oblicz ilość ludzi na świecie korzystając z metody "dziel i rządź".
