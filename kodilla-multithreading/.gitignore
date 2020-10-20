@@ -35,3 +35,4 @@ out/
 /module-2/src/main/java/com/kodilla/completable/*
 !**/module-2/src/main/java/com/kodilla/completable/homework
 **/module-3/src/main/java/com/kodilla/multi/parallel**
+**/module-3/src/main/java/com/kodilla/multi/latch**

@@ -1,0 +1,5 @@
+Zadanie: synchronizacja wątków z użyciem zatrzasku
+Napisz program, który wykorzystując zatrzask CountDownLack,
+zsynchronizuje wykonanie pięciu wątków, których czas trwania będzie losowy
+– w zakresie 500-2000 milisekund. Wykorzystaj generator liczb pseudolosowych
+do wylosowania wielkości opóźnienia dla każdego wątku niezależnie.
