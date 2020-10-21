@@ -1,0 +1,14 @@
+Zadanie: synchronizacja wątków z użyciem bariery
+Napisz program wykorzystujący barierę do zsynchronizowania wykonania pięciu wątków, z których każdy wykona wyścig sum. Każdy wątek będzie posiadał:
+
+zmienną int sumaA (zainicjalizowana wartością 1000),
+
+zmienną int sumaB (zainicjalizowana wartością 0),
+
+pętlę while, wewnątrz której:
+
+losujemy liczbę typu int z zakresu 0-9 i dodajemy ją do zmiennej sumaA,
+losujemy liczbę typu int z zakresu 0-49 i dodajemy ją do zmiennej sumaB.
+Pętlę wykonuj tak długo, jak długo spełniony jest warunek sumaA > sumaB. W każdej iteracji wyświetl numer przebiegu pętli oraz aktualne wartości obu zmiennych.
+
+Po zakończeniu wszystkich wyścigów wyświetl komunikat, używając bariery.
