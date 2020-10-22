@@ -37,3 +37,4 @@ out/
 **/module-3/src/main/java/com/kodilla/multi/parallel**
 **/module-3/src/main/java/com/kodilla/multi/latch**
 **/module-3/src/main/java/com/kodilla/multi/barrier**
+**/module-3/src/main/java/com/kodilla/multi/exchanger**

@@ -1,0 +1,7 @@
+Zadanie: zastosowanie exchangera w praktyce
+Wykorzystaj exchanger do wymiany obiektów pomiędzy wątkami.
+
+Stwórz klasę Book i w jednym wątku wygeneruj losowo tytuł (jako frazę "Title number" i doklejoną losową liczbę)
+oraz autora (analogicznie jak tytuł).
+
+Drugi wątek powinien odebrać obiekt i wyświetlić go. Exchanger powinien być typu Exchanger<Book>.
