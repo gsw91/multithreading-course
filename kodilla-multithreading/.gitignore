@@ -38,3 +38,5 @@ out/
 **/module-3/src/main/java/com/kodilla/multi/latch**
 **/module-3/src/main/java/com/kodilla/multi/barrier**
 **/module-3/src/main/java/com/kodilla/multi/exchanger**
+**/module-3/src/main/java/com/kodilla/multi/phaser**
+**/module-4/src/main/java/com/kodilla/threads/example**
