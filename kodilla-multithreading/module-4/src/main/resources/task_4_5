@@ -1,0 +1,4 @@
+Napisz program, który za pomocą metody thenCompose połączy ze sobą dwie odpowiedzi z serwisów/wątków.
+Serwisy powinny zwracać listy obiektów o takim samym typie.
+Po połączeniu obu wyników usuń duplikaty.
+Wszystko powinno znajdować się w jednym łańcuchu.
