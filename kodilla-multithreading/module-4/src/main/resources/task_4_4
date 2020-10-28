@@ -1,0 +1,4 @@
+Napisz program, który:
+- będzie posiadał klasę Database przechowującą listę obiektów reprezentujących klientów (Customer).
+- metody insert zabezpieczoną write lockiem i select zabezpieczoną read lockiem
+- za pomocą klasy ExecutorService stwórz kilka wątków, które będą czytały i modyfikowały bazę.
