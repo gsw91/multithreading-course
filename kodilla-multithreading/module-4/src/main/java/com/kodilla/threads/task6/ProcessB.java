@@ -1,7 +1,5 @@
 package com.kodilla.threads.task6;
 
-import java.util.concurrent.locks.StampedLock;
-
 public final class ProcessB implements Runnable {
 
     private final ResourceA resourceA;
